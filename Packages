@@ -1,0 +1,18 @@
+Package: SCE-Track
+Architecture: amd64
+Version: 5.0
+Priority: optional
+Section: utils
+Maintainer: OracleLoadstar
+Installed-Size: 4096
+Provides:
+Depends:
+Suggests:
+Filename: ./SCE_Linux_amd64.deb
+Size: 69954
+MD5sum: 00a6b00f613b7ee428437f23cce0069c
+SHA1: 0f2920a5a2e4ecd74d2c6f732430db0af44eacf9
+SHA256: fbb3bf53e7f4975a41be9bfee60254d457d4c101a4934f2c15c2a9b9c338fd6e
+SHA512: dfc4b0c5ee4bd293740ec6765a41d65ac0e010c44134d2378a467f295bc8a6ad5f5126fe2a2b81c52149d6f1282903e067937060cc894f78fb40cb39649e0ca0
+Description: A tools of umamusume supportcard calculation.
+
