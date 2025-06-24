@@ -1,0 +1,18 @@
+Package: SCE-Track
+Architecture: aarch64
+Version: 5.0.1
+Priority: optional
+Section: utils
+Maintainer: OracleLoadstar
+Installed-Size: 4096
+Provides:
+Depends:
+Suggests:
+Filename: ./SCE_Android_aarch64.deb
+Size: 2129384
+MD5sum: 4fd0d0559e0305e7ce25250e07923e6e
+SHA1: fd5fa01c16a69214a922798acbd90a0734ea76b4
+SHA256: 2d3427c011d3238343b537716b41fbf5ac63bfcc09bc94225573765b4037f119
+SHA512: 4c7c51e3072251444cbcb101b7096f86c897a65d433359d55ead246769dca5c7562c4ffbd5f8e8d406818ff738b8e0450079fa1937a49b8bb0134f1544cc5b1c
+Description: A tools of umamusume supportcard calculation.
+
