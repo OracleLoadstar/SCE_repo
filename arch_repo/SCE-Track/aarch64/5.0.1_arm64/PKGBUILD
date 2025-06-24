@@ -1,0 +1,20 @@
+# Maintainer: OracleLoadstar
+pkgname=sce-track
+pkgver=5.0.1
+pkgrel=1
+pkgdesc="A tools of umamusume supportcard calculation."
+arch=('any')
+url="https://github.com/OracleLoadstar/SCE_repo"
+license=('Apache')
+depends=()
+source=("SCE_Linux_arm64_5.0.1.deb::file:///home/xingguangcuican/pj/sce_repo_arch/SCE_repo/SCE_Linux_arm64_5.0.1.deb")
+md5sums=('3f3fae84267d5385e579ba8cd5c0c9a2')
+
+prepare() {
+  ar x "${srcdir}/SCE_Linux_arm64_5.0.1.deb"
+  tar -xf data.tar.zst -C "${srcdir}"
+}
+
+package() {
+  cp -r "${srcdir}"/* "${pkgdir}/"
+}
